@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('tareas.png'); background-size: cover;">
+
+    <div class="caja">
+        <h1>Mis Tareas</h1>
+        <input type="text" id="texto" placeholder="Nueva tarea">
+        <input type="date" id="fecha">
+        <button onclick="agregar()">Agregar</button>
+
+        <hr>
+
+        <input type="text" id="buscarTexto" placeholder="Buscar tarea">
+        <button onclick="buscar()">Buscar</button>
+
+        <ul id="lista"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
